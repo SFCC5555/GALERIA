@@ -20,7 +20,7 @@
 .galeriaIlustraciones, .galeriaStoryBoards {
     grid-template-columns: repeat(3, 1fr);
     margin: 30px;
-    padding: 5px;
+    padding: 15px;
 }
 
 .galeriaIlustraciones > div {
