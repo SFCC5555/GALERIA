@@ -46,7 +46,7 @@ nav a {
     background-color: antiquewhite;
     z-index: 1;
     top:38px;
-    width: 15%;
+    width: 25%;
     border: 2px solid rgb(229, 214, 194);
     border-radius: 5px;
     font-size: 1.5rem;
@@ -99,41 +99,36 @@ nav a {
 
 h3 {
     letter-spacing: 20px;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 10;
     padding-left: 40px;
 }
-.galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: rgba(255, 183, 0, 0.918);
-    margin: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 30px;
-    padding-bottom: 40px;
-    cursor:pointer;
 
+.galeriaIlustraciones {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(255, 183, 0);
+    margin: 40px;
+    padding: 30px;
 }
 
-#SB {
+.galeriaStoryBoards {
+    display: grid;
+    grid-template-columns: 1fr;
     background-color: red;
     margin: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px;
 
 }
 
 
-.galeria >div {
+.galeriaIlustraciones > div {
     display: grid;
     grid-template-rows: 80% 20% ;
     padding: 30px;
 }
 
-a {
+.galeriaIlustraciones a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,11 +143,6 @@ a {
 
 img:hover {
     transform:scale(1.1);
-}
-.galeria:hover,#SB:hover {
-    transform: scale(1.03);
-    border-style: solid;
-    border-color: black;   
 }
 
 button {
@@ -174,10 +164,11 @@ button:hover {
     border-color: teal;
 }
 
-.galeria>div:hover {
 
-    border-style:solid;
-    border-color: rgba(243, 175, 3, 0.918);
-    border-width: 5px;
+.galeriaIlustraciones img {
+    border:5px solid rgb(255, 183, 0);
 }
 
+.galeriaIlustraciones img:hover {
+    border:5px solid rgb(248, 163, 6);
+}
