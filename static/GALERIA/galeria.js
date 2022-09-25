@@ -1,5 +1,5 @@
-var b1= document.querySelector("button")
-var a1= document.getElementById("a");
+let b1= document.querySelector("button")
+let a1= document.getElementById("a");
 
 b1.addEventListener("click", () => {
     a1.setAttribute("src", "/static/GALERIA/AUDIO/THANKYOU.mp3")
