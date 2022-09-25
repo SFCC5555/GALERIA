@@ -1,0 +1,10 @@
+.galeria {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h3 {
+    letter-spacing: 15px;
+    font-size: 20px;
+    font-weight: 10;
+    padding-left: 40px;
+}
