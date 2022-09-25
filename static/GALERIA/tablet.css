@@ -1,10 +1,41 @@
-.galeria {
+.gif img {
+    width: 75px;
+}
+
+.logo img {
+    width: 375px;
+}
+
+.subTitle {
+    font-size: 1.8rem;
+    letter-spacing: 15px;
+}
+
+
+.menuContainer {
+    width: 25%;
+    font-size: 1.7rem;
+}
+
+.galeriaIlustraciones, .galeriaStoryBoards {
     grid-template-columns: repeat(2, 1fr);
+    margin: 25px;
+    padding: 10px;
+}
+
+.galeriaIlustraciones > div {
+
+    padding: 10px;
+}
+
+.galeriaStoryBoards > div {
+
+    padding: 10px;
 }
 
 h3 {
     letter-spacing: 15px;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 10;
-    padding-left: 40px;
+    margin-left: 25px;
 }

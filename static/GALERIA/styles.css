@@ -65,7 +65,13 @@ nav a {
     text-decoration: none;
 }
 
+.gif img {
+    width: 65px;
+}
 
+.logo img {
+    width: 300px;
+}
 
 .mainScreen {
     height: 100vh;
@@ -125,8 +131,15 @@ h3 {
 .galeriaIlustraciones > div {
     display: grid;
     grid-template-rows: 80% 20% ;
-    padding: 30px;
+    padding: 25px;
 }
+
+.galeriaStoryBoards > div {
+    display: grid;
+    grid-template-rows: 80% 20% ;
+    padding: 25px;
+}
+
 
 .galeriaIlustraciones a {
     display: flex;
@@ -171,6 +184,13 @@ button:hover {
     border-color: teal;
 }
 
+.galeriaIlustraciones > div {
+    border-bottom: 3px solid rgb(248, 163, 6);
+}
+
+.galeriaStoryBoards > div {
+    border-bottom: 3px solid rgb(212, 11, 11);
+}
 
 .galeriaIlustraciones img {
     border:4px solid rgb(255, 183, 0);
