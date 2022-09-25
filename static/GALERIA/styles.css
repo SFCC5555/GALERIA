@@ -132,12 +132,14 @@ h3 {
     display: grid;
     grid-template-rows: 80% 20% ;
     padding: 25px;
+    margin:5px 0px
 }
 
 .galeriaStoryBoards > div {
     display: grid;
     grid-template-rows: 80% 20% ;
     padding: 25px;
+    margin:5px 0px
 }
 
 
