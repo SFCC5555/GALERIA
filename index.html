@@ -10,22 +10,32 @@
     </head>
     <body>
         <nav>      
-            <div>Menú</div>
+            <div onclick="mostrarMenu();">Menú</div>
             <div><a href="">Reload</a></div>
         </nav>
 
+        <section id="menu" class="inactive">
+            <a onclick="mostrarMenu();" href="#ilustraciones">Ilustraciones</a>
+            <a onclick="mostrarMenu();" href="#storyBoards">StoryBoards</a>
+        </section>
+
         <section class="mainScreen">
+            
             <section class="mainTitle">
+                
                 <div class="gif">
                     <a href="static/GALERIA/IMAGENES/GIFMorty.gif">
                     <img src="static/GALERIA/IMAGENES/GIFMorty.gif" width=75px/>
                     </a>
                 </div>
+                
                 <div class="logo">
                     <img src="static/GALERIA/IMAGENES/SFCC_LETRAS_PNG.png" width=400/>
                 </div>
+                
             </section>
-            <section class="subTitle">
+            
+            <section id="ilustraciones" class="subTitle">
                 <div>C</div>
                 <div>o</div>
                 <div>m</div>
@@ -46,7 +56,9 @@
             </section>
 
         </section>
-        <h3 id="ilustraciones">ILUSTRACIONES</h3>
+
+        <h3>ILUSTRACIONES</h3>
+        
         <section class="galeria">
 
             <div>
@@ -114,7 +126,7 @@
                 </div>
             </div>
         </section>
-            <h3>STORYBOARDS</h3>
+            <h3 id="storyBoards">STORYBOARDS</h3>
         <section id= "SB">
 
             <a href="static/GALERIA/IMAGENES/STORYBOARD BONDED TRAILER SFCC.pdf" target="_BLANK">
