@@ -54,17 +54,17 @@ ilustrationList.push({
 });
 
 ilustrationList.push({
-    image: "/static/GALERIA/IMAGENES/wolf.jpeg",
+    image: "static/GALERIA/IMAGENES/wolf.jpeg",
     name: "wolf",
 });
 
 ilustrationList.push({
-    image: "/static/GALERIA/IMAGENES/cloe.jpeg",
+    image: "static/GALERIA/IMAGENES/cloe.jpeg",
     name: "cloe",
 });
 
 ilustrationList.push({
-    image: "/static/GALERIA/IMAGENES/tengenUzuiKyojuroRengoku.png",
+    image: "static/GALERIA/IMAGENES/tengenUzuiKyojuroRengoku.png",
     name: "Tengen Uzui Kyojuro Rengoku",
 });
 
