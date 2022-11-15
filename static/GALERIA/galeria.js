@@ -91,7 +91,7 @@ function renderIlustrations()
         imagenIlustration.setAttribute("width","75%");
         
         contenedorBoton=document.createElement("div");
-        contenedorBoton.setAttribute("class","boton");
+        contenedorBoton.setAttribute("class","botonInactivo");
         botonComprar=document.createElement("button");
         botonComprar.setAttribute("onclick","audio();");
         botonComprar.innerText="COMPRAR"
@@ -122,7 +122,7 @@ function renderStoryBoards()
         imagenStoryBoard.setAttribute("width","75%");
         
         contenedorBoton=document.createElement("div");
-        contenedorBoton.setAttribute("class","boton");
+        contenedorBoton.setAttribute("class","botonInactivo");
         botonComprar=document.createElement("button");
         botonComprar.setAttribute("onclick","audio();");
         botonComprar.innerText="COMPRAR"
