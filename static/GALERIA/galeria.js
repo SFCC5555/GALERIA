@@ -53,6 +53,22 @@ ilustrationList.push({
     name: "Inosuke",
 });
 
+ilustrationList.push({
+    image: "/static/GALERIA/IMAGENES/wolf.jpeg",
+    name: "wolf",
+});
+
+ilustrationList.push({
+    image: "/static/GALERIA/IMAGENES/cloe.jpeg",
+    name: "cloe",
+});
+
+ilustrationList.push({
+    image: "/static/GALERIA/IMAGENES/tengenUzuiKyojuroRengoku.png",
+    name: "Tengen Uzui Kyojuro Rengoku",
+});
+
+
 
 /*CONSTRUCTOR STORYBOARDS*/
 
