@@ -68,6 +68,10 @@ ilustrationList.push({
     name: "Tengen Uzui Kyojuro Rengoku",
 });
 
+ilustrationList.push({
+    image: "static/GALERIA/IMAGENES/personajeComic1.png",
+    name: "Personaje Comic",
+});
 
 
 /*CONSTRUCTOR STORYBOARDS*/
