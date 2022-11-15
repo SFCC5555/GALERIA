@@ -24,11 +24,6 @@ ilustrationList.push({
 });
 
 ilustrationList.push({
-    image: "static/GALERIA/IMAGENES/CONCEPTARTWARGAMESFCC.png",
-    name: "WarWolf",
-});
-
-ilustrationList.push({
     image: "static/GALERIA/IMAGENES/GATO GAMER SFCC.png",
     name: "gato",
 });
@@ -64,13 +59,23 @@ ilustrationList.push({
 });
 
 ilustrationList.push({
-    image: "static/GALERIA/IMAGENES/tengenUzuiKyojuroRengoku.png",
-    name: "Tengen Uzui Kyojuro Rengoku",
+    image: "static/GALERIA/IMAGENES/personajeComic1.png",
+    name: "Personaje Comic",
 });
 
 ilustrationList.push({
-    image: "static/GALERIA/IMAGENES/personajeComic1.png",
-    name: "Personaje Comic",
+    image: "static/GALERIA/IMAGENES/CONCEPTARTWARGAMESFCC.png",
+    name: "WarWolf",
+});
+
+ilustrationList.push({
+    image: "static/GALERIA/IMAGENES/feminaziBanner.png",
+    name: "Feminazis",
+});
+
+ilustrationList.push({
+    image: "static/GALERIA/IMAGENES/tengenUzuiKyojuroRengoku.png",
+    name: "Tengen Uzui Kyojuro Rengoku",
 });
 
 
