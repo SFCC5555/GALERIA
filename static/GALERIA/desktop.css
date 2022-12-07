@@ -17,7 +17,7 @@
     font-size: 1.8rem;
 }
 
-.galeriaIlustraciones, .galeriaStoryBoards {
+.galeriaIlustraciones, .galeriaStoryBoards, .galeriaLogos {
     grid-template-columns: repeat(3, 1fr);
     margin: 30px;
     padding: 15px;
@@ -29,6 +29,11 @@
 }
 
 .galeriaStoryBoards > div {
+
+    padding: 5px;
+}
+
+.galeriaLogos > div {
 
     padding: 5px;
 }

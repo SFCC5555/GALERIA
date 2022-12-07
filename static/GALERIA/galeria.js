@@ -1,6 +1,7 @@
 let m=document.getElementById("menu");
 let gi=document.querySelector(".galeriaIlustraciones");
 let gs=document.querySelector(".galeriaStoryBoards")
+let gl=document.querySelector(".galeriaLogos")
 
 function mostrarMenu() {
     m.classList.toggle("menuContainer")
@@ -167,3 +168,94 @@ function renderStoryBoards()
 renderIlustrations();
 
 renderStoryBoards();
+
+/*CONSTRUCTOR LOGOS*/
+
+const logosList =[];
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/basliteLogo.png",
+    name: "BASLITE",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/bitcatLogo.png",
+    name: "BITCAT",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/bonbonLovesLogo.png",
+    name: "BONBONLOVERS",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/clinicaBallesterLogo.png",
+    name: "BALLESTER",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/FdLlogo.png" ,
+    name: "FDL",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/ghostBoy.png",
+    name: "GHOSTBOY",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/proarq.png",
+    name: "PROARQ",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/quickDelivery.png",
+    name: "QUICKDELIVERY",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/sosUnica.png",
+    name: "SOS UNICA",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/wizard.png",
+    name: "WaWIZARDrWolf",
+});
+
+
+
+
+function renderLogos()
+{
+
+    for (logo of logosList) {
+        contenedorLogo=document.createElement("div");
+        linkLogo=document.createElement("a");
+        linkLogo.setAttribute("href",logo.image);
+        linkLogo.setAttribute("target","_BLANK");
+        imagenLogo=document.createElement("img");
+        imagenLogo.setAttribute("src",logo.image);
+        imagenLogo.setAttribute("alt",logo.name);
+        imagenLogo.setAttribute("width","75%");
+        
+        contenedorBoton=document.createElement("div");
+        contenedorBoton.setAttribute("class","botonInactivo");
+        botonComprar=document.createElement("button");
+        botonComprar.setAttribute("onclick","audio();");
+        botonComprar.innerText="COMPRAR"
+        
+       
+       
+        gl.appendChild(contenedorLogo);
+        contenedorLogo.appendChild(linkLogo);
+        linkLogo.appendChild(imagenLogo);
+    
+        contenedorLogo.appendChild(contenedorBoton);
+        contenedorBoton.appendChild(botonComprar);
+    }
+
+}
+
+
+renderLogos();
