@@ -79,6 +79,10 @@ ilustrationList.push({
     name: "Tengen Uzui Kyojuro Rengoku",
 });
 
+ilustrationList.push({
+    image: "static/GALERIA/IMAGENES/conejoEstampado.png",
+    name: "Conejo Demoniaco",
+});
 
 /*CONSTRUCTOR STORYBOARDS*/
 
