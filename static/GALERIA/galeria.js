@@ -227,8 +227,25 @@ logosList.push({
     name: "WaWIZARDrWolf",
 });
 
+logosList.push({
+    image: "static/GALERIA/IMAGENES/DETOX4.0blanco.png",
+    name: "WaWIZARDrWolf",
+});
 
+logosList.push({
+    image: "static/GALERIA/IMAGENES/EDFiteracion8.png",
+    name: "WaWIZARDrWolf",
+});
 
+logosList.push({
+    image: "static/GALERIA/IMAGENES/topGuessr.png",
+    name: "WaWIZARDrWolf",
+});
+
+logosList.push({
+    image: "static/GALERIA/IMAGENES/pumai1.png",
+    name: "WaWIZARDrWolf",
+});
 
 function renderLogos()
 {
